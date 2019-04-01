@@ -1,142 +1,144 @@
+title: Serverless-Frameworks
+url:
+services:
+  Aegis:
+    github_repo: tmaiaroto/aegis
 
-Aegis:
-  github_repo: tmaiaroto/aegis
+  Apex: 
+    github_repo: apex/apex
 
-Apex: 
-  github_repo: apex/apex
+  Architect:
+    github_repo: arc-repos/arc.codes
 
-Architect:
-  github_repo: arc-repos/arc.codes
+  AWS Amplify:
+    company: aws
 
-AWS Amplify:
-  company: aws
+  Up:
+    github_repo: apex/up
 
-Up:
-  github_repo: apex/up
+  Chalice:
+    github_repo: aws/chalice
 
-Chalice:
-  github_repo: aws/chalice
+  CIM:
+    github_repo: thestackshack/cim
 
-CIM:
-  github_repo: thestackshack/cim
+  ClaudiaJS:
+    github_repo: claudiajs/claudia
 
-ClaudiaJS:
-  github_repo: claudiajs/claudia
+  DEEP:
+    github_repo: MitocGroup/deep-framework
 
-DEEP:
-  github_repo: MitocGroup/deep-framework
+  flowbject:
+    github_repo: alex20465/flowbject
 
-flowbject:
-  github_repo: alex20465/flowbject
+  FunctionShield:
+    dependent: aws, google
+    github_repo:
 
-FunctionShield:
-  dependent: aws, google
-  github_repo:
+  Gordon:
+    github_repo: jorgebastida/gordon
 
-Gordon:
-  github_repo: jorgebastida/gordon
+  Gestalt Framework:
+    site: http://www.galacticfog.com
+    github_repo:
 
-Gestalt Framework:
-  site: http://www.galacticfog.com
-  github_repo:
+  IronFunctions:
+    github_repo: iron-io/functions
 
-IronFunctions:
-  github_repo: iron-io/functions
+  Jets:
+    github_repo: tongueroo/jets
 
-Jets:
-  github_repo: tongueroo/jets
+  Kappa:
+    github_repo: garnaat/kappa
 
-Kappa:
-  github_repo: garnaat/kappa
+  Lambda API:
+    github_repo: jeremydaly/lambda-api
 
-Lambda API:
-  github_repo: jeremydaly/lambda-api
+  Lambda Forest:
+    github_repo: tdsis/lambda-forest
 
-Lambda Forest:
-  github_repo: tdsis/lambda-forest
+  Lambada Framework:
+    github_repo: cagataygurturk/lambadaframework
 
-Lambada Framework:
-  github_repo: cagataygurturk/lambadaframework
+  lambda-restify:
+    github_repo: kksharma1618/lambda-restify
 
-lambda-restify:
-  github_repo: kksharma1618/lambda-restify
+  Lambdoku:
+    dependent: aws
+    github_repo: kubek2k/lambdoku
 
-Lambdoku:
-  dependent: aws
-  github_repo: kubek2k/lambdoku
+  middy:
+    dependent: aws
+    github_repo: middyjs/middy
 
-middy:
-  dependent: aws
-  github_repo: middyjs/middy
+  modofun:
+    github_repo: modofunjs/modofun
 
-modofun:
-  github_repo: modofunjs/modofun
+  OpenFaaS:
+    github_repo: openfaas/faas
 
-OpenFaaS:
-  github_repo: openfaas/faas
+  Pulumi:
+    site: https://pulumi.io/
+    github_repo: pulumi/pulumi
 
-Pulumi:
-  site: https://pulumi.io/
-  github_repo: pulumi/pulumi
+  Python-λ:
+    github_repo: nficano/python-lambda
 
-Python-λ:
-  github_repo: nficano/python-lambda
+  Serverless Framework:
+    github_repo:
 
-Serverless Framework:
-  github_repo:
+  Serverless Compose:
+    github_repo: DavidJFelix/serverless-compose
 
-Serverless Compose:
-  github_repo: DavidJFelix/serverless-compose
+  Shep:
+    github_repo: bustle/shep
 
-Shep:
-  github_repo: bustle/shep
+  Sigma:
+    site: https://sigma.slappforge.com/
+    github_repo:
 
-Sigma:
-  site: https://sigma.slappforge.com/
-  github_repo:
+  Sparta:
+    site: http://gosparta.io/
+    github_repo: mweagle/Sparta
+    dependent: aws
 
-Sparta:
-  site: http://gosparta.io/
-  github_repo: mweagle/Sparta
-  dependent: aws
+  SAM Local:
+    github_repo: awslabs/aws-sam-cli
+    dependent: aws
 
-SAM Local:
-  github_repo: awslabs/aws-sam-cli
-  dependent: aws
+  Turtle:
+    github_repo: iopipe/turtle/
 
-Turtle:
-  github_repo: iopipe/turtle/
+  Zappa:
+    github_repo: Miserlou/Zappa
+    dependent: aws
 
-Zappa:
-  github_repo: Miserlou/Zappa
-  dependent: aws
+  λambdify:
+    site: http://zhukovalexander.github.io/lambdify/
+    github_repo: ZhukovAlexander/lambdify
+    dependent: aws
 
-λambdify:
-  site: http://zhukovalexander.github.io/lambdify/
-  github_repo: ZhukovAlexander/lambdify
-  dependent: aws
+  Squeezer Framework:
+    site: https://tokensale.squeezer.io/
+    github_repo: SqueezerIO/squeezer
 
-Squeezer Framework:
-  site: https://tokensale.squeezer.io/
-  github_repo: SqueezerIO/squeezer
+  Spring Cloud Function:
+    github_repo: spring-cloud/spring-cloud-function
 
-Spring Cloud Function:
-  github_repo: spring-cloud/spring-cloud-function
+  Fission Workflows:
+    github_repo: fission/fission-workflows
 
-Fission Workflows:
-  github_repo: fission/fission-workflows
+  azure-functions-express:
+    github_repo: yvele/azure-function-express
+    dependent: Azure
 
-azure-functions-express:
-  github_repo: yvele/azure-function-express
-  dependent: Azure
+  Riff:
+    site: https://projectriff.io/
+    github_repo: projectriff/riff
 
-Riff:
-  site: https://projectriff.io/
-  github_repo: projectriff/riff
+  FuseLess:
+    site: https://fuseless.org/
+    dependent: aws
 
-FuseLess:
-  site: https://fuseless.org/
-  dependent: aws
-
-DropFaaS:
-  github_repo: droopp/drop-core
+  DropFaaS:
+    github_repo: droopp/drop-core

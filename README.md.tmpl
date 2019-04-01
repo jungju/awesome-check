@@ -1,8 +1,10 @@
 # Awesome check
 
-## Serverless - Framework
+{{range .}}
+## {{.Title}}
 
 |Name|Stargazers Count|License Name|
 |---|---|---|
-{{range .}}|{{.Name}}|{{.StargazersCount}}|{{.LicenseName}}|
+{{range .Services}}|{{.Name}}|{{.StargazersCount}}|{{.LicenseName}}|
+{{end}}
 {{end}}

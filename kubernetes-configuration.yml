@@ -1,0 +1,39 @@
+title: Kubernetes-Configuration 
+url:
+services:
+  Kompose: 
+    github_repo: kubernetes/kompose
+  Jsonnet: 
+    github_repo: google/jsonnet
+  K8comp: 
+    github_repo: cststack/k8comp
+  Ktmpl: 
+    github_repo: jimmycuadra/ktmpl
+  Konfd: 
+    github_repo: weaveworks/kubediff
+  kenv: 
+    github_repo: thisendout/kenv
+  kubediff: 
+    github_repo: weaveworks/kubediff
+  thesus: 
+    github_repo: heptiolabs/theseus
+  Habitat: 
+    github_repo: habitat-sh/habitat
+  Puppet: 
+    github_repo: 
+  Ansible: 
+    github_repo: 
+  Saltstack: 
+    github_repo:
+  Chef: 
+    github_repo:
+  kubegen: 
+    github_repo: errordeveloper/kubegen
+  kustomize: 
+    github_repo: kubernetes-sigs/kustomize
+  kapitan: 
+    github_repo: deepmind/kapitan
+  kubecfg: 
+    github_repo: ksonnet/kubecfg
+  Pulumi: 
+    github_repo: pulumi/pulumi-kubernetes
