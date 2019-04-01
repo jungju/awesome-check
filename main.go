@@ -4,6 +4,7 @@ import (
 	"context"
 	"log"
 	"os"
+	"sort"
 	"strings"
 
 	"github.com/google/go-github/github"
@@ -34,6 +35,8 @@ func main() {
 	mustYamlFileToGoObject("serverless-framework.yml", mapService)
 
 	client := github.NewClient(tc)
+
+	services := []*Service{}
 	for k, v := range mapService {
 		v.Name = k
 		if v.GithubRepo != "" {
@@ -49,11 +52,18 @@ func main() {
 				v.LicenseName = rep.License.GetName()
 			}
 		}
+		services = append(services, v)
 	}
 
-	mustWrite("README.md", mustExecuteReadmemd(mapService))
+	mustWrite("README.md", mustExecuteReadmemd(services))
 }
 
-func mustExecuteReadmemd(mapService map[string]*Service) string {
-	return mustExecuteTemplateFile("./README.md.tmpl", mapService, nil)
+func sortService(services []*Service) {
+	sort.Slice(services, func(i, j int) bool {
+		return services[i].StargazersCount > services[j].StargazersCount
+	})
+}
+
+func mustExecuteReadmemd(services []*Service) string {
+	return mustExecuteTemplateFile("./README.md.tmpl", services, nil)
 }

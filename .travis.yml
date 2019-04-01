@@ -1,2 +1,10 @@
 language: go
-install: ./build.sh
+before_install:
+  - go get -u golang.org/x/oauth2
+  - go get -u github.com/google/go-github/github
+  - go get -u gopkg.in/yaml.v2s
+install: 
+  - go run main.go utils.go 
+after_success:
+  - 'git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"'
+  - git push --quiet --set-upstream origin master
