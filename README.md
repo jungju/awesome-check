@@ -25,8 +25,8 @@
 |Spring Cloud Function|483|Apache License 2.0|
 |Shep|355|MIT License|
 |Lambda API|290|MIT License|
-|Lambada Framework|236|MIT License|
 |Aegis|236|Apache License 2.0|
+|Lambada Framework|236|MIT License|
 |Fission Workflows|218|Apache License 2.0|
 |Turtle|151|Apache License 2.0|
 |Architect|141||
@@ -40,9 +40,9 @@
 |Lambda Forest|10|MIT License|
 |flowbject|6||
 |DropFaaS|4|GNU Lesser General Public License v3.0|
-|FunctionShield|0||
-|Gestalt Framework|0||
-|FuseLess|0||
-|AWS Amplify|0||
-|Sigma|0||
 |Serverless Framework|0||
+|Sigma|0||
+|FuseLess|0||
+|Gestalt Framework|0||
+|FunctionShield|0||
+|AWS Amplify|0||
