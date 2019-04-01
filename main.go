@@ -55,6 +55,8 @@ func main() {
 		services = append(services, v)
 	}
 
+	sortService(services)
+
 	mustWrite("README.md", mustExecuteReadmemd(services))
 }
 
