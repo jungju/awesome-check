@@ -41,8 +41,8 @@
 |flowbject|6||
 |DropFaaS|4|GNU Lesser General Public License v3.0|
 |AWS Amplify|0||
-|FunctionShield|0||
 |Serverless Framework|0||
 |FuseLess|0||
 |Gestalt Framework|0||
+|FunctionShield|0||
 |Sigma|0||
