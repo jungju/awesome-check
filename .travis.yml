@@ -7,6 +7,7 @@ before_install:
 install: 
   - go run main.go utils.go 
 after_success:
-  - 'git commit -am "Travis build: $TRAVIS_BUILD_NUMBER"'
   - git remote add github https://$GITHUB_TOKEN@github.com/jungju/awesome-check.git
+  - git checkout master 
+  - 'git commit -am "Travis build: $TRAVIS_BUILD_NUMBER"'
   - git push --set-upstream github master
