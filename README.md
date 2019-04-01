@@ -18,8 +18,8 @@
 |Kappa|897|Apache License 2.0|
 |Jets|792|MIT License|
 |Riff|685|Other|
-|middy|575|MIT License|
 |Lambdoku|575||
+|middy|575|MIT License|
 |Sparta|548|MIT License|
 |DEEP|528|Mozilla Public License 2.0|
 |Spring Cloud Function|483|Apache License 2.0|
@@ -41,8 +41,8 @@
 |flowbject|6||
 |DropFaaS|4|GNU Lesser General Public License v3.0|
 |Sigma|0||
-|Gestalt Framework|0||
-|FunctionShield|0||
-|FuseLess|0||
-|AWS Amplify|0||
 |Serverless Framework|0||
+|FunctionShield|0||
+|AWS Amplify|0||
+|FuseLess|0||
+|Gestalt Framework|0||
