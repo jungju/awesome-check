@@ -19,7 +19,7 @@
 |Jets|792|MIT License|
 |Riff|685|Other|
 |Lambdoku|575||
-|middy|574|MIT License|
+|middy|575|MIT License|
 |Sparta|548|MIT License|
 |DEEP|528|Mozilla Public License 2.0|
 |Spring Cloud Function|483|Apache License 2.0|
@@ -40,9 +40,9 @@
 |Lambda Forest|10|MIT License|
 |flowbject|6||
 |DropFaaS|4|GNU Lesser General Public License v3.0|
-|FunctionShield|0||
-|AWS Amplify|0||
-|Serverless Framework|0||
-|Sigma|0||
 |FuseLess|0||
+|Serverless Framework|0||
 |Gestalt Framework|0||
+|AWS Amplify|0||
+|FunctionShield|0||
+|Sigma|0||
