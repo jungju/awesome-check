@@ -7,7 +7,7 @@
 |OpenFaaS|13709|MIT License|
 |Zappa|8859|MIT License|
 |Apex|7639|MIT License|
-|Up|6805|Other|
+|Up|6806|Other|
 |Chalice|5475|Apache License 2.0|
 |SAM Local|4066|Apache License 2.0|
 |ClaudiaJS|3121|MIT License|
@@ -25,8 +25,8 @@
 |Spring Cloud Function|483|Apache License 2.0|
 |Shep|355|MIT License|
 |Lambda API|290|MIT License|
-|Aegis|236|Apache License 2.0|
 |Lambada Framework|236|MIT License|
+|Aegis|236|Apache License 2.0|
 |Fission Workflows|218|Apache License 2.0|
 |Turtle|151|Apache License 2.0|
 |Architect|141||
@@ -40,9 +40,9 @@
 |Lambda Forest|10|MIT License|
 |flowbject|6||
 |DropFaaS|4|GNU Lesser General Public License v3.0|
-|Gestalt Framework|0||
-|FuseLess|0||
-|Serverless Framework|0||
-|Sigma|0||
-|AWS Amplify|0||
 |FunctionShield|0||
+|AWS Amplify|0||
+|Sigma|0||
+|FuseLess|0||
+|Gestalt Framework|0||
+|Serverless Framework|0||
