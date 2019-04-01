@@ -9,4 +9,4 @@ install:
 after_success:
   - 'git commit -am "Travis build: $TRAVIS_BUILD_NUMBER"'
   - git remote add github https://$GITHUB_TOKEN@github.com/jungju/awesome-check.git
-  - git push --quiet --set-upstream github master
+  - git push --set-upstream github master
